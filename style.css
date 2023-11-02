@@ -1,0 +1,46 @@
+body {
+  background-color: #5a5a5a;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 100vh; /* Make sure the body covers the entire viewport height */
+  margin: 0; /* Remove default body margin */
+}
+
+.card {
+  /* Your card styles here */
+  display: flex;
+  justify-content: center; /* Horizontally center the content within the card */
+  align-items: center; /* Vertically center the content within the card */
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  font-size: 100px;
+  height: 150px;
+  width: 150px;
+  background-color: #494949;
+  border-radius: 50%;
+  border: none;
+  
+}
+.buttons button:hover {
+  background-color: #313131;
+  border: none;
+  cursor: pointer;
+  
+}
+.winnerText{
+  text-align: center;
+}
+.history{
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  padding-right: 30px;
+}

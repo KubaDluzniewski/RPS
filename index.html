@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="card"><p><h1>Score: </h1></p>
+      
+      <h1 id="score">0:0</h1>
+    </div>
+    <div class="buttons">
+      <button id="Scissors" onclick="log('Scissors')" >✌️</button>
+      <button id="Rock" onclick="log('Rock')">✊</button>
+      <button id="Paper" onclick="log('Paper')">✋</button>
+
+    </div>
+    <div class="winnerText"><h1 id="winnerText"></h1></div>
+    <div class="history">
+    <ul id="matchHistory">
+      <li></li>
+    </ul>
+  </div>
+
+  </body>
+</html>
